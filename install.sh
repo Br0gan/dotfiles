@@ -1,6 +1,6 @@
 #!/bin/bash 
 #Move contents to $HOME/.dotfiles
-mv -rv */ $HOME/.dotfiles
+cp -rv ./ $HOME/.dotfiles
 
 # Install Xorg stuff and base16 shell and stuff
 sudo pacman -S xorg-xmodmap xorg-xrandr xorg-xprop git termite 
@@ -10,6 +10,8 @@ git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shel
 #Symlink bash_profile
 ln -svf $HOME/.dotfiles/.bash_profile $HOME/.bash_profile
 ln -svf $HOME/.dotfiles/.bashrc $HOME/.bashrc
+ln -svf $HOME/.dotfiles/.Xresouces $HOME/.Xresources
+
 
 source ~/.bashrc
 
@@ -44,7 +46,7 @@ sudo pacman -S vim lua
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-ln -svf $H/home/OMEHOME/.dotfiles/.vimrc $HOME/.vimrc
+ln -svf $HOME/.dotfiles/.vimrc $HOME/.vimrc
 
 #SETUP MPD
 sudo pacman -S mpd ncmpcpp
@@ -53,7 +55,8 @@ mkdir -p .config/mpd/playlists
 
 for file in $HOME/.dotfiles/mpd/*
 do
-    ln -svf $FILE $HOME/.config/mpd
+    ln -svf $file $HOME/.config/mpd
 done
 
 sudo systemctl enable mpd.service
+
