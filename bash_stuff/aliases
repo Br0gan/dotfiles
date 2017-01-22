@@ -1,0 +1,8 @@
+alias l="ls -la"       # List in long format, include dotfiles
+alias ld="ls -ld */"   # List in long format, only directories
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias syu="sudo pacman -Syu"
+alias pac-clear="sudo pacman -Sc" 
+alias pac-rm="sudo pacman -Rns"

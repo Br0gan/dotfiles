@@ -1,0 +1,4 @@
+#pacman -S function
+pacs () {
+    sudo -S pacman -S $@
+}

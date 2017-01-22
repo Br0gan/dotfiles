@@ -1,0 +1,174 @@
+#!/bin/bash
+#  ██                       
+# ░██                       
+# ░██       ██████   ██████ 
+# ░██████  ░░░░░░██ ░░██░░█ 
+# ░██░░░██  ███████  ░██ ░  
+# ░██  ░██ ██░░░░██  ░██    
+# ░██████ ░░████████░███    
+# ░░░░░    ░░░░░░░░ ░░░     
+# nxll <nxll@taknik.io>
+
+#RESTART
+pkill lemonbar
+
+#COLORS
+fg="#B39A8F"
+bg="#261D18"
+
+hint="#7CAFC2"
+nblk="#30251F"
+bblk="#3B2D26"
+nred="#975542"
+bred="#A15A46"
+ngrn="#B3725A"
+bgrn="#BD785F"
+nylw="#66493D"
+bylw="#705043"
+nblu="#AD795C"
+bblu="#B88062"
+nmag="#965744"
+bmag="#A15D49"
+ncyn="#4D372E"
+bcyn="#573E34"
+nwht="#A37A68"
+bwht="#AE826F"
+
+#VARS
+font="-lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1"
+glyph="-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1"
+height=20
+border=5
+muslength=45
+#actchar="+"
+#selchar="+"
+#actchar=""
+#selchar=""
+
+
+WRK()
+{
+	wrkspce=$(xprop -root _NET_CURRENT_DESKTOP | sed -e 's/_NET_CURRENT_DESKTOP(CARDINAL) = //')
+	
+	if [ "${wrkspce}" = "0" ] ;
+	then 
+		echo "%{B$hint} %{F$bg}0%{F-} %{B$nblk} 1 2 3 4 %{B-}"
+	elif [ "${wrkspce}" = "1" ] ;
+	then
+		echo "%{B$nblk} 0 %{B$hint} %{F$bg}1%{F-} %{B$nblk} 2 3 4 %{B-}"
+	elif [ "${wrkspce}" = "2" ] ;
+	then 
+		echo "%{B$nblk} 0 1 %{B$hint} %{F$bg}2%{F-} %{B$nblk} 3 4 %{B-}"
+	elif [ "${wrkspce}" = "3" ] ;
+	then 
+		echo "%{B$nblk} 0 1 2 %{B$hint} %{F$bg}3%{F-} %{B$nblk} 4 %{B-}"
+	elif [ "${wrkspce}" = "4" ] ;
+	then 
+		echo "%{B$nblk} 0 1 2 3 %{B$hint} %{F$bg}4%{F-} %{B-}"
+    else
+		echo "%{B$hint} %{F$bg}NONE%{F-} %{B-}"
+	fi
+}
+
+WIN()
+{
+    #echo -n "%{B$hint}%{F$bg}  %{F-}%{B-}"
+	echo -n "%{B$bblk}%{F$fg} $(wname $(pfw)) %{F-}%{B-}"
+}
+
+MUSIC()
+{
+	playing=$(mpc status | sed -n 2p | cut -c1-9)
+	
+		if [ "${playing}" = "[playing]" ]; then
+        	symbol="%{B$bblk} %{F$fg}%{F-} %{B-}"
+			song="%{B$nblk} $(mpc current -f "%artist% - %title%" | cut -c1-$muslength) %{B-}"
+		elif [ ${playing} = "[paused]" ]; then
+			symbol="%{B$bblk} %{F$fg}%{F-} %{B-}"
+			song="%{B$nblk} $(mpc current -f "%artist% - %title%" | cut -c1-$muslength) %{B-}"
+		elif [ ! "${playing}" = "[playing]" ]; then
+			symbol="%{B$bblk} %{F$fg}%{F-} %{B-}"
+			song="%{B$nblk} ··· %{B-}"
+		fi
+
+    echo -n "${symbol}${song}"
+}
+
+VOL()
+{
+	getvol=$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1  )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,')
+	
+	echo -n "%{B$bblk} %{B$nblk} $getvol% %{B-}"
+}
+
+BAT()
+{
+    percent=$(cat /sys/class/power_supply/BAT0/capacity)
+    status=$(cat /sys/class/power_supply/BAT0/status)
+
+    if test $status = "Charging"; then
+        symbol=""
+        echo -n "%{B$bblk} ${symbol} %{B-}"
+    elif test $status = "Full"; then
+        symbol=""
+        echo -n "%{B$bblk} ${symbol} %{B-}"
+    else
+        if test $percent -gt 66; then
+            symbol=""
+            echo -n "%{B$bblk} ${symbol} %{B-}"
+        elif test $percent -gt 34; then
+            symbol=""
+            echo -n "%{B$bblk} ${symbol} %{B-}"
+        else
+		symbol=""
+            echo -n "%{B$bblk} ${symbol} %{B-}"
+        fi
+    fi
+
+	echo -e "%{B$nblk} $percent% %{B-}"
+}
+
+NET()
+{
+	symbol="%{B$bblk}  %{B-}"
+	disconnected=$(iw wls1 link | awk '/Not/ {print $1}')
+
+	ssid=$(
+	if [ "$disconnected" = "Not" ]; then
+		echo "NOT CONNECTED"
+	else
+		iw wlo1 link | grep 'SSID' | sed 's/SSID: //' | sed 's/\t//'
+	fi)
+
+	echo -n "${symbol}%{B$nblk} ${ssid} %{B-}"
+}
+
+DATE()
+{
+    echo -n "%{B$bblk} %{F$fg}$(date "+%m/%d " | tr [A-Z] [a-z])%{F-}%{B-}"
+}
+
+CLOCK()
+{
+    echo -n "%{B$hint}%{F$bg} $(date "+%r") %{F-}%{B-} "
+}
+
+BAR()
+{ 
+    #ADD ALL THE THINGS
+    while true; do
+		buf="$(WRK) $(MUSIC)%{c} %{r}$(VOL) $(BAT) $(NET) $(DATE) $(CLOCK)" 
+#       buf="$(WRK) $(VOL) $(BAT) $(NET) $(DATE) $(CLOCK)" 
+		echo "$buf"	
+        sleep 1
+    done | lemonbar -f $glyph \
+        -f "$font" \
+        -F "$fg" \
+        -B "$bg" \
+        -u "1" \
+		-r "1" \
+		-R "$bg" \
+        -g "1366x$height+0+0" | sh &
+}
+
+BAR > /dev/null
