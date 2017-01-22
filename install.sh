@@ -24,7 +24,7 @@ git clone https://github.com/dark-yux/bar.git
 cd bar
 make
 sudo cp lemonbar /bin/lemonbar
-rm -rfv bar/
+cd .. && rm -rfv bar/
 
 ln -svf $HOME/.dotfiles/.bar $HOME/.bar
 
