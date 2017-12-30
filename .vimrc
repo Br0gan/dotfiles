@@ -20,11 +20,29 @@ Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go'
 Plug 'chriskempson/base16-vim'
-Plug 'Shougo/neocomplete.vim'
+"Plug 'Shougo/neocomplete.vim'
 Plug 'itchyny/lightline.vim'
-"Plug 'ervandew/supertab'
+"Plug 'SirVer/ultisnips'
 Plug 'Raimondi/delimitMate'
+"Javascript Development
+Plug 'Pangloss/vim-javascript'
+Plug 'mattn/emmet-vim'
+Plug 'mxw/vim-jsx'
+"Plug 'ternjs/tern_for_vim'
+Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
 
+" (Optional) Multi-entry selection UI.
+Plug 'junegunn/fzf'
+" (Optional) Multi-entry selection UI.
+Plug 'Shougo/denite.nvim'
+
+" (Optional) Completion integration with deoplete.
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" (Optional) Completion integration with nvim-completion-manager.
+Plug 'roxma/nvim-completion-manager'
+
+" (Optional) Showing function signature and inline doc.
+Plug 'Shougo/echodoc.vim'
 " Initialize plugin system
 call plug#end()
 
@@ -105,8 +123,11 @@ if filereadable(expand("~/.vimrc_background"))
   source ~/.vimrc_background
 endif
 syntax on
-
-
+highlight goType cterm=italic ctermfg=cyan
+highlight GoSignedInts cterm=italic ctermfg=cyan
+highlight goUnsignedInts cterm=italic ctermfg=cyan
+highlight goFloats cterm=italic ctermfg=cyan
+highlight goComplexes cterm=italic ctermfg=cyan
 " Showing line numbers and length
   set number " show line numbers
   set tw=79 " width of document (used by gd)
@@ -126,9 +147,9 @@ set undolevels=700
 
 
 " Real programmers don't use TABs but spaces
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set shiftround
 set expandtab
 
@@ -164,7 +185,23 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_fields = 1
 let g:go_highlight_types = 1
+let g:go_highlight_extra_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+let g:go_auto_type_info = 1
+set updatetime=100
 
 let g:go_fmt_command = "goimports"
+"delimitMate config
+let g:delimitMate_expand_cr=1
+"JS stuff
+"let g:jsx_ext_required = 0
+let g:javascript_conceal_arrow_function = "⇒"
+"enable keyboard shortcuts
+let g:tern_map_keys=1
+"show argument hints
+let g:tern_show_argument_hints='on_hold'
+
+
+" Automatically start language servers.
+let g:LanguageClient_autoStart = 1

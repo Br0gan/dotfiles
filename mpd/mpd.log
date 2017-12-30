@@ -87072,3 +87072,357 @@ Jan 20 22:29 : client: [9514] opened from 127.0.0.1:37286
 Jan 20 22:29 : client: [9514] closed
 Jan 20 22:29 : client: [9515] opened from 127.0.0.1:37290
 Jan 20 22:29 : client: [9515] closed
+Jul 08 20:18 : exception: Failed to open /home/br0gan/.config/mpd/mpdstate: No such file or directory
+Jul 08 20:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 08 20:18 : client: [0] opened from 127.0.0.1:43662
+Jul 08 20:18 : client: [1] opened from 127.0.0.1:43666
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/01 - Bloodmeat.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/01 - Bloodmeat.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/01 - Bloodmeat.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/02 - The Dissentience.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/02 - The Dissentience.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/02 - The Dissentience.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/03 - Bone Marrow.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/01 - Bloodmeat.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/01 - Bloodmeat.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/01 - Bloodmeat.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/02 - The Dissentience.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/02 - The Dissentience.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/02 - The Dissentience.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/03 - Bone Marrow.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:18 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:18 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:18 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/03 - Bone Marrow.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:19 : client: [2] opened from 127.0.0.1:43668
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3
+Jul 08 20:19 : client: [2] closed
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/03 - Bone Marrow.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:19 : client: [3] opened from 127.0.0.1:43670
+Jul 08 20:19 : client: [3] closed
+Jul 08 20:19 : client: [4] opened from 127.0.0.1:43672
+Jul 08 20:19 : client: [4] closed
+Jul 08 20:19 : client: [5] opened from 127.0.0.1:43674
+Jul 08 20:19 : client: [5] closed
+Jul 08 20:19 : client: [6] opened from 127.0.0.1:43676
+Jul 08 20:19 : client: [6] closed
+Jul 08 20:19 : client: [7] opened from 127.0.0.1:43678
+Jul 08 20:19 : client: [7] closed
+Jul 08 20:19 : client: [8] opened from 127.0.0.1:43680
+Jul 08 20:19 : client: [8] closed
+Jul 08 20:19 : client: [9] opened from 127.0.0.1:43682
+Jul 08 20:19 : client: [9] closed
+Jul 08 20:19 : client: [10] opened from 127.0.0.1:43684
+Jul 08 20:19 : client: [10] closed
+Jul 08 20:19 : client: [11] opened from 127.0.0.1:43686
+Jul 08 20:19 : client: [11] closed
+Jul 08 20:19 : client: [12] opened from 127.0.0.1:43688
+Jul 08 20:19 : client: [12] closed
+Jul 08 20:19 : client: [13] opened from 127.0.0.1:43690
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:19 : client: [13] closed
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:19 : client: [14] opened from 127.0.0.1:43692
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3: No such file or directory
+Jul 08 20:19 : client: [14] closed
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/03 - Bone Marrow.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:19 : client: [15] opened from 127.0.0.1:43694
+Jul 08 20:19 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:19 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:19 : client: [15] closed
+Jul 08 20:19 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:20 : client: [1] closed
+Jul 08 20:28 : client: [0] closed
+Jul 08 20:28 : client: [16] opened from 127.0.0.1:43696
+Jul 08 20:28 : client: [17] opened from 127.0.0.1:43698
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3
+Jul 08 20:28 : client: [17] closed
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/03 - Bone Marrow.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/03 - Bone Marrow.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/04 - Sequoia Throne.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/04 - Sequoia Throne.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/05 - Palms Read.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/05 - Palms Read.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/06 - Limb From Limb.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/06 - Limb From Limb.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/07 - Spoils.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/07 - Spoils.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/08 - Wretch.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/08 - Wretch.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/09 - Goddess Bound.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/09 - Goddess Bound.mp3"
+Jul 08 20:28 : exception: Failed to decode /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3
+Jul 08 20:28 : exception: nested: Failed to open /home/br0gan/music/Protest The Hero/Fortress/10 - Goddess Gagged.mp3: No such file or directory
+Jul 08 20:28 : player: played "Protest The Hero/Fortress/10 - Goddess Gagged.mp3"
+Jul 08 20:29 : client: [16] closed
+Jul 08 20:29 : client: [18] opened from 127.0.0.1:43700
+Jul 08 20:29 : client: [18] closed
+Jul 08 20:29 : client: [19] opened from 127.0.0.1:43702
+Jul 08 20:35 : client: [19] closed
+Jul 08 20:35 : client: [20] opened from 127.0.0.1:43770
+Jul 08 20:39 : client: [20] closed
+Jul 08 20:39 : client: [21] opened from 127.0.0.1:43778
+Jul 08 20:39 : client: [21] closed
+Jul 08 20:40 : client: [22] opened from 127.0.0.1:43780
+Jul 08 20:40 : client: [22] closed
+Jul 08 20:40 : client: [23] opened from 127.0.0.1:43782
+Jul 08 20:42 : client: [23] closed
+Jul 08 20:42 : client: [24] opened from 127.0.0.1:43784
+Jul 08 20:42 : client: [24] closed
+Jul 08 20:42 : client: [25] opened from 127.0.0.1:43786
+Jul 08 20:43 : client: [25] closed
+Jul 08 20:43 : client: [26] opened from 127.0.0.1:43788
+Jul 08 20:44 : client: [26] closed
+Jul 08 20:44 : client: [27] opened from 127.0.0.1:43790
+Jul 08 20:44 : client: [27] closed
+Jul 08 20:44 : client: [28] opened from 127.0.0.1:43792
+Jul 08 20:45 : client: [28] closed
+Jul 08 20:45 : client: [29] opened from 127.0.0.1:43794
+Jul 08 20:57 : client: [29] closed
+Jul 08 20:57 : client: [30] opened from 127.0.0.1:43798
+Jul 08 20:58 : client: [30] closed
+Jul 08 20:58 : client: [31] opened from 127.0.0.1:43800
+Jul 08 21:00 : client: [31] closed
+Jul 08 21:00 : client: [32] opened from 127.0.0.1:43862
+Jul 08 21:01 : client: [32] closed
+Jul 08 21:02 : client: [33] opened from 127.0.0.1:43864
+Jul 08 21:03 : client: [33] closed
+Jul 08 21:03 : client: [34] opened from 127.0.0.1:43866
+Jul 08 21:03 : client: [34] closed
+Jul 08 21:03 : client: [35] opened from 127.0.0.1:43868
+Jul 08 21:03 : client: [35] closed
+Jul 08 21:03 : client: [36] opened from 127.0.0.1:43870
+Jul 08 21:04 : client: [36] closed
+Jul 08 21:04 : client: [37] opened from 127.0.0.1:43872
+Jul 08 21:05 : client: [37] closed
+Jul 08 21:05 : client: [38] opened from 127.0.0.1:43874
+Jul 08 21:05 : client: [38] closed
+Jul 08 21:05 : client: [39] opened from 127.0.0.1:43876
+Jul 08 21:05 : client: [39] closed
+Jul 08 21:05 : client: [40] opened from 127.0.0.1:43878
+Jul 08 21:05 : client: [40] closed
+Jul 08 21:05 : client: [41] opened from 127.0.0.1:43880
+Jul 08 21:06 : client: [41] closed
+Jul 08 21:06 : client: [42] opened from 127.0.0.1:43882
+Jul 08 21:07 : client: [42] closed
+Jul 08 21:07 : client: [43] opened from 127.0.0.1:43884
+Jul 08 21:07 : client: [43] closed
+Jul 08 21:07 : client: [44] opened from 127.0.0.1:43886
+Jul 08 21:08 : client: [44] closed
+Jul 08 21:08 : client: [45] opened from 127.0.0.1:43888
+Jul 08 21:08 : client: [45] closed
+Jul 08 21:08 : client: [46] opened from 127.0.0.1:43890
+Jul 08 21:08 : client: [46] closed
+Jul 08 21:08 : client: [47] opened from 127.0.0.1:43892
+Jul 08 21:10 : client: [47] closed
+Jul 08 21:10 : client: [48] opened from 127.0.0.1:43894
+Jul 08 21:10 : client: [48] closed
+Jul 08 21:10 : client: [49] opened from 127.0.0.1:43896
+Jul 08 21:11 : client: [49] closed
+Jul 08 21:11 : client: [50] opened from 127.0.0.1:43898
+Jul 08 21:11 : client: [50] closed
+Jul 08 21:11 : client: [51] opened from 127.0.0.1:43900
+Jul 08 21:17 : client: [51] closed
+Jul 08 21:17 : client: [52] opened from 127.0.0.1:43968
+Jul 08 21:17 : client: [52] closed
+Jul 08 21:17 : client: [53] opened from 127.0.0.1:43970
+Jul 08 21:17 : client: [53] closed
+Jul 08 21:17 : client: [54] opened from 127.0.0.1:43976
+Jul 08 21:17 : client: [54] closed
+Jul 08 21:17 : client: [55] opened from 127.0.0.1:43978
+Jul 08 21:18 : client: [55] closed
+Jul 08 21:18 : client: [56] opened from 127.0.0.1:43980
+Jul 08 21:27 : client: [56] closed
+Jul 08 21:27 : client: [57] opened from 127.0.0.1:44038
+Jul 08 21:27 : client: [57] closed
+Jul 08 21:27 : client: [58] opened from 127.0.0.1:44040
+Jul 08 21:32 : client: [58] closed
+Jul 08 21:32 : client: [59] opened from 127.0.0.1:44042
+Jul 08 21:33 : client: [59] closed
+Jul 08 21:33 : client: [60] opened from 127.0.0.1:44044
+Jul 08 21:35 : client: [60] closed
+Jul 08 21:35 : client: [61] opened from 127.0.0.1:44046
+Jul 08 21:35 : client: [61] closed
+Jul 08 21:35 : client: [62] opened from 127.0.0.1:44048
+Jul 08 21:40 : client: [62] closed
+Jul 08 21:40 : client: [63] opened from 127.0.0.1:44052
+Jul 08 21:40 : client: [63] closed
+Jul 08 21:40 : client: [64] opened from 127.0.0.1:44054
+Jul 08 21:40 : client: [64] closed
+Jul 08 21:40 : client: [65] opened from 127.0.0.1:44056
+Jul 08 21:41 : client: [65] closed
+Jul 08 21:41 : client: [66] opened from 127.0.0.1:44058
+Jul 08 21:41 : client: [66] closed
+Jul 08 21:41 : client: [67] opened from 127.0.0.1:44060
+Jul 08 21:45 : client: [67] closed
+Jul 08 21:45 : client: [68] opened from 127.0.0.1:44062
+Jul 08 21:45 : client: [68] closed
+Jul 08 21:45 : client: [69] opened from 127.0.0.1:44064
+Jul 08 21:48 : client: [69] closed
+Jul 08 21:48 : client: [70] opened from 127.0.0.1:44084
+Jul 08 21:48 : client: [70] closed
+Jul 08 21:48 : client: [71] opened from 127.0.0.1:44086
+Jul 08 21:50 : client: [71] closed
+Jul 08 21:50 : client: [72] opened from 127.0.0.1:44090
+Jul 08 21:51 : client: [72] closed
+Jul 08 21:51 : client: [73] opened from 127.0.0.1:44130
+Jul 08 21:51 : client: [73] closed
+Jul 08 21:51 : client: [74] opened from 127.0.0.1:44132
+Jul 08 21:52 : client: [74] closed
+Jul 08 21:52 : client: [75] opened from 127.0.0.1:44134
+Jul 08 21:52 : client: [75] closed
+Jul 08 21:52 : client: [76] opened from 127.0.0.1:44156
+Jul 08 21:53 : client: [76] closed
+Jul 08 21:53 : client: [77] opened from 127.0.0.1:44182
+Jul 08 21:54 : client: [77] closed
+Jul 08 21:54 : client: [78] opened from 127.0.0.1:44184
+Jul 08 21:56 : client: [78] closed
+Jul 08 21:56 : client: [79] opened from 127.0.0.1:44186
+Jul 08 21:56 : client: [79] closed
+Jul 08 21:57 : client: [80] opened from 127.0.0.1:44188
+Jul 08 21:57 : client: [80] closed
+Jul 08 21:57 : client: [81] opened from 127.0.0.1:44190
+Jul 08 21:57 : client: [81] closed
+Jul 08 21:57 : client: [82] opened from 127.0.0.1:44192
+Jul 08 21:58 : client: [82] closed
+Jul 08 21:58 : client: [83] opened from 127.0.0.1:44194
+Jul 08 21:58 : client: [83] closed
+Jul 08 21:58 : client: [84] opened from 127.0.0.1:44196
